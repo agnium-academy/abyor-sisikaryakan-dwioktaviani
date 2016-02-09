@@ -112,6 +112,9 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\dataPegawai.cs" />
+    <Compile Include="Models\golongan.cs" />
+    <Compile Include="Models\jabatan.cs" />
+    <Compile Include="Models\tunjangan.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
