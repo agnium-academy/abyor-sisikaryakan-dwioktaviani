@@ -35,5 +35,12 @@ namespace sisikaryakan.Models
 
         [HttpBindNever]
         public jabatan namaJabatan { get; set; }
+
+        [Required]
+        public golongan kodeGolongan { get; set; }
+
+        [HttpBindNever]
+        public golongan namaGolongan { get; set; }
+
     }
 }
